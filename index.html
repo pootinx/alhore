@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="favicon.jpg" type="image/x-icon">
+    <link href="../bootstrap/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Al hore</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top p-2 ">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img src="logo.jpg" style="border-radius: 50%;" width="40" height="40" class="d-inline-block align-top" alt="">
+                <span style="font-weight: bold ;">Al hore</span> 
+              </a>
+              <button class="navbar-toggler" type="button"
+               data-bs-toggle="collapse" data-bs-target="#navmenu">
+               <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#home"><i class="bi bi-house-door-fill"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#products"><i class="bi bi-grid-fill"></i> Products</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#contact"><i class="bi bi-envelope-fill"></i> Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#questions">
+                        <i class="bi bi-question-circle-fill"></i> Q&A
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <i class="bi bi-cart-fill"></i>
+                        <span class="cart-icon" data-count="0">0</span>
+                      </a>
+                    </li>
+                </ul>
+              </div>
+        </div>
+      </nav>
+      <div class="blur">
+        <section class="text-dark p-5 p-lg-5 pt-lg-5 text-center text-sm-start" id="home" >
+          <div class="container " >
+              <div class="d-sm-flex align-items-center ">
+                  <div class="texthome" >
+                      <h4>Official Sponsor of Nature</h4>
+                      <h1>Al hore Company</h1>
+                      <p class="lead my-4">
+                          On the road to Nature, you will find us waiting for you
+                          You breathe life from the aromas of our products Authenticity
+                          , tradition, and purity AL HORE.
+                      </p>
+                      <button id="getProductsButton" class="btn btn-warning btn-lg"><span style="color: rgb(250, 250, 250);">Get your Products </span> </button>
+                  </div>
+                  <img style="border-radius: 5%;" class="img-fluid w-50 d-none d-sm-block" src="msmn.jpeg" alt=""/>
+              </div>
+          </div>
+        </section>
+      </div>
+      <section id="learn" class="p-5">
+        <div class="container">
+          <div class="row algn-items-center justify-content-between">
+            <div class="col-md">
+              <img src="p1.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md p-5">
+              <h2>About us</h2>
+              <p class="lead">The bees live as they naturally would and their benefits reach more people. 
+                Our goal is to raise San Diego’s bee population throughout the city and at the same time 
+                spread awareness among the community.Our hope is that these backyard hives will facilitate <br>
+                a dialogue among neighbours, friends,family and the community at large about the huge importance of bees.
+                
+              </p>
+              <p class="lead">
+                The first step to becoming a successful beekeeper is to learn as much as you can about the bees themselves.
+                 Considering all the variables that may affect your honeybees, you may see something different every time you 
+                 get into your hive. In order to make appropriate management decisions, beekeepers must be flexible in their 
+                 ability to figure out why bees are behaving a certain way, and how certain actions may impact their well.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="products" class="p-5" >
+        <h1 class="p-5">Our Products :</h1>
+        <div class="container">
+            <div class="row text-center g-4">
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Chardon Honey </h4>
+                          <p class="card-text">Natural 100%</p>
+                          <div class="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-half-o checked"></span>
+                          </div>
+                          <strike class="price1">$30.00</strike>
+                          <h5 class="price"> $19.99</h5>
+                          <a href="#" class="btn">Buy now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Argan Oil </h4>
+                          <p class="card-text">Natural 100%</p>
+                          <div class="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-half-o checked"></span>
+                          </div>
+                          <strike class="price1">$30.00</strike>
+                          <h5 class="price"> $14.99</h5>
+                          
+                          <a href="#" class="btn ">Buy now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Amlou with Honey </h4>
+                          <p class="card-text">Natural 100%</p>
+                          <div class="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-half-o checked"></span>
+                          </div>
+                          <strike class="price1">$22.00</strike>
+                          <h5 class="price"> $14.99</h5>
+                          
+                          <a href="#" class="btn ">Buy now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                          <h4 class="card-title">Eucaliptus Honey </h4>
+                          <p class="card-text">Natural 100%</p>
+                          <div class="star-rating">
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star-half-o checked"></span>
+                          </div>
+                          <strike class="price1">$30.00</strike>
+                          <h5 class="price"> $19.99</h5>
+                          
+                          <a href="#" class="btn ">Buy now</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="1.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Chardon Honey </h4>
+                        <p class="card-text">Natural 100%</p>
+                        <div class="star-rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star-half-o checked"></span>
+                        </div>
+                        <strike class="price1">$30.00</strike>
+                        <h5 class="price"> $19.99</h5>
+                        
+                        <a href="#" class="btn ">Buy now</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="2.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Argan Oil </h4>
+                        <p class="card-text">Natural 100%</p>
+                        <div class="star-rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star-half-o checked"></span>
+                        </div>
+                        <strike class="price1">$30.00</strike>
+                        <h5 class="price"> $14.99</h5>
+                        
+                        <a href="#" class="btn ">Buy now</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="3.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Amlou with Honey </h4>
+                        <p class="card-text">Natural 100%</p>
+                        <div class="star-rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star-half-o checked"></span>
+                        </div>
+                        <strike class="price1">$22.00</strike>
+                        <h5 class="price"> $14.99</h5>
+                        
+                        <a href="#" class="btn ">Buy now</a>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-md">
+                  <div class="card" style="width: 18rem;">
+                      <img class="card-img-top" src="4.jpg" alt="Card image cap">
+                      <div class="card-body">
+                        <h4 class="card-title">Eucaliptus Honey </h4>
+                        <p class="card-text">Natural 100%</p>
+                        <div class="star-rating">
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star-half-o checked"></span>
+                        </div>
+                        <strike class="price1">$30.00</strike>
+                        <h5 class="price"> $19.99</h5>
+                        
+                        <a href="#" class="btn ">Buy now</a>
+                      </div>
+                    </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <section id="questions" class="p-5">
+        <div class="container">
+          <h2 class="text-center mb-4 p-5">
+            Frequently Asked Questions
+          </h2>
+          <div class="accordion accordion-flush" id="quations">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  What about Shipping ?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#questions">
+                <div class="accordion-body">We using cash on delivery so you pay cash when you get you products.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Wher you are exactly located ?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#questions">
+                <div class="accordion-body"> Currently we are in Morocco exactly in Beni mellal city, you are welcom.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Are your products really natural 100% ?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#questions">
+                <div class="accordion-body">Yes of course,Our product are natural 100% from the Atlas mountainq</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                  How can i Contact you ?
+                </button>
+              </h2>
+              <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#questions">
+                <div class="accordion-body">You can contact us in our E-mail address <span class="alhore-email">Alhore.honey@gmail.com</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <section id="subscribe" class="bg-dark text-light p-3">
+            <div class="container">
+                <div class="d-md-flex justify-content-between ">
+                    <h3 class="mb-3 mb-md-0 ">Subscrib to our Newsletter</h3>
+                    <div class="input-group mb-3 news-input" method="get">
+                        <input type="email" class="form-control " placeholder="Enter Email" aria-label="Email" aria-describedby="basic-addon2" aria-required="true" aria-invalid="true">
+                        <div class="input-group-append ">
+                          <input class="btn" style="background-color: #ffc400;" type="submit" value="Subscrib" >
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- Footer -->
+  <footer
+  class="text-center text-lg-start text-white"
+  style="background-color: #141924"
+  >
+<!-- Section: Social media -->
+<section
+     class="d-flex justify-content-between p-4"
+     style="background-color: #ffc400">
+</section>
+<section id="contact" class="footer">
+<div class="container text-center text-md-start mt-5">
+<!-- Grid row -->
+<div class="row mt-3">
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+    <!-- Content -->
+    <h6 class="text-uppercase fw-bold">AL HORE</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #eeff00; height: 2px"
+        />
+    <p>
+      On the road to Nature, you will find us waiting 
+      for you You breathe life 
+      from the aromas of our products Authenticity , 
+      tradition, and purity AL HORE.
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+    <!-- Links -->
+    <h6 class="text-uppercase fw-bold">Products</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffffff; height: 2px"
+        />
+    <p>
+      <a href="#!" class="text-white">Honey</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">Oil</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">Amlou</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">Packs</a>
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+    <!-- Links -->
+    <h6 class="text-uppercase fw-bold">Useful links</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffffff; height: 2px"
+        />
+    <p>
+      <a href="#!" class="text-white">Your Account</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">Become an Affiliate</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">Shipping Rates</a>
+    </p>
+    <p>
+      <a href="#!" class="text-white">Help</a>
+    </p>
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+    <!-- Links -->
+    <h6 class="text-uppercase fw-bold">Contact</h6>
+    <hr
+        class="mb-4 mt-0 d-inline-block mx-auto"
+        style="width: 60px; background-color: #ffffff; height: 2px"
+        />
+    <p><i class="fas fa-home mr-3"></i> Béni Mellal, morocco</p>
+    <p><i class="fas fa-envelope mr-3"></i> Alhore@gmail.com</p>
+    <p><i class="fas fa-phone mr-3"></i> + 212 682 08 65 21</p>
+    <p><i class="fas fa-print mr-3"></i> + 212 682 08 65 21</p>
+  </div>
+  <!-- Grid column -->
+</div>
+<!-- Grid row -->
+</div>
+</section>
+<!-- Section: Links  -->
+
+<!-- Copyright -->
+<div class="container d-flex justify-content-center py-5">
+  <button type="button" class="btn btn-lg btn-floating mx-3" style="background-color: #ffd900;">
+    <i class="fab fa-facebook-f"></i>
+  </button>
+  <button type="button" class="btn btn-lg btn-floating mx-3" style="background-color: #ffd900;">
+    <i class="fab fa-youtube"></i>
+  </button>
+  <button type="button" class="btn btn-lg btn-floating mx-3" style="background-color: #ffd900;">
+    <i class="fab fa-instagram"></i>
+  </button>
+  <button type="button" class="btn btn-lg btn-floating mx-3" style="background-color: #ffd900;">
+    <i class="fab fa-whatsapp"></i>
+  </button>
+</div>
+<div
+ class="text-center p-3"
+ style="background-color: rgba(0, 0, 0, 0.2)"
+ >
+ <img style="border-radius: 50%;" src="logof.jpg" alt=""> <br>
+© 2023 Copyright:
+<a class="text-white" href="https://alhore.com/"
+ >Alhore.com</a
+>
+</div>
+<!-- Copyright -->
+</footer>
+<!-- Footer -->
+        </section>
+    <script src="../bootstrap/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
