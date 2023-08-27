@@ -8,7 +8,7 @@ body::before{
 
 
   
-  .cart-icon {
+.cart-icon {
     position: absolute;
     background-color: #ff9900;
     color: #fff;
@@ -18,10 +18,10 @@ body::before{
     padding: 3px 7px;
     border-radius: 50%;
   }
-  .navbar-nav .nav-item {
+.navbar-nav .nav-item {
     margin-right: 30px;
   }
-  .navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link {
     font-weight: bold;
   }
 .checked {
@@ -30,6 +30,8 @@ body::before{
 .card{
     transition: padding 0.5s ,box-shadow 0.5s,width 0.5s;
     padding:15px;
+    width: 335px;
+    height: 545px;
 }
 .card:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
@@ -148,7 +150,7 @@ nav span{
 #item{
     margin: 10px;
 }
-#item, #footer a{
+#item a{
     text-decoration: none;
     color: black;
 }
@@ -222,7 +224,7 @@ footer img{
 }
 
 @media(min-width: 768px){
-    .news-input{
+.news-input{
         width: 50%;
     }
 }
