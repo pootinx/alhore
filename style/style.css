@@ -30,8 +30,6 @@ body::before{
 .card{
     transition: padding 0.5s ,box-shadow 0.5s,width 0.5s;
     padding:15px;
-    width: 335px;
-    height: 545px;
 }
 .card:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
@@ -191,7 +189,10 @@ nav span{
     font-size: 18px;
 }
 
-#footer, footer a{
+#footer a{
+    text-decoration: none;
+}
+footer a{
     text-decoration: none;
 }
 #footer, footer{
@@ -210,6 +211,7 @@ footer img{
     width:100%;
     margin: 3px auto;
     border-radius: 21px;
+    width:1500px;
 }
 .img-fluid {
     width: 400px !important;
