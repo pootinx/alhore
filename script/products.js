@@ -35,13 +35,7 @@ class Products{
                 <div>
                   <h4> ${item.title} </h4>
                   <p> ${item.subTitle} </p>
-                  <div>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star checked"></span>
-                    <span class="fa fa-star-half-o checked"></span>
-                  </div>
+                  <!-- etoils -->
                   <strike class="price1">$ ${item.price1} </strike>
                   <h5 class="price"> $ ${item.price2}</h5>
                 </a>  
@@ -54,3 +48,11 @@ class Products{
 }
 
 onload = new Products();
+//  etoils
+// <div>
+//                  <span class="fa fa-star checked"></span>
+  //                  <span class="fa fa-star checked"></span>
+    //                <span class="fa fa-star checked"></span>
+      //              <span class="fa fa-star checked"></span>
+        //            <span class="fa fa-star-half-o checked"></span>
+          //        </div> 
